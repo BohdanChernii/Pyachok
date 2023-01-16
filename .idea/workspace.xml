@@ -4,22 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d327cdc-bc44-46ae-8bb4-a7ac06562bfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyachok.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/configs/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/database/New.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/database/Respond.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/database/Restaurant.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/database/User.ts" afterDir="false" />
+    <list default="true" id="0d327cdc-bc44-46ae-8bb4-a7ac06562bfa" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/backend/src/controller/restaurant.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/database/GeneralNews.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/database/News.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/database/RestaurantContacts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/error/error.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/router/news.router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/router/restaurant.router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/service/news.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/service/restaurant.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/configs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/configs/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/New.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/New.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/Respond.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/Respond.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/Restaurant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/Restaurant.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dist/database/User.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/configs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/configs/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/database/New.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/news.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/database/Restaurant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/database/Restaurant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +46,7 @@
       <list>
         <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -48,19 +64,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\РОБОЧИЙ_СТІЛ\\Курс\\Pyachok\\backend\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\РОБОЧИЙ_СТІЛ\\Курс\\Pyachok\\backend\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\РОБОЧИЙ_СТІЛ\Курс\Pyachok\backend\src" />
@@ -94,8 +110,25 @@
       <updated>1673377580013</updated>
       <workItem from="1673377581946" duration="4007000" />
       <workItem from="1673421844139" duration="8518000" />
-      <workItem from="1673431103038" duration="3738000" />
+      <workItem from="1673431103038" duration="11838000" />
+      <workItem from="1673517017018" duration="5519000" />
+      <workItem from="1673546654041" duration="9795000" />
+      <workItem from="1673613010815" duration="862000" />
+      <workItem from="1673614172454" duration="842000" />
+      <workItem from="1673615038364" duration="13500000" />
+      <workItem from="1673776861303" duration="23000" />
+      <workItem from="1673877306226" duration="131000" />
+      <workItem from="1673898383653" duration="25000" />
+      <workItem from="1673898562433" duration="29000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1673434919250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673434919250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
