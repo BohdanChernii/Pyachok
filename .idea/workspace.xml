@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d327cdc-bc44-46ae-8bb4-a7ac06562bfa" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/backend/src/controller/restaurant.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/database/GeneralNews.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/database/News.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/database/RestaurantContacts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/error/error.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/router/news.router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/router/restaurant.router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/service/news.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/service/restaurant.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/app.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/configs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/configs/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/New.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/New.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/Respond.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/Respond.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/Restaurant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/Restaurant.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dist/database/User.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/configs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/configs/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/database/New.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/news.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/database/Restaurant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/database/Restaurant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +90,7 @@
       <workItem from="1673776861303" duration="23000" />
       <workItem from="1673877306226" duration="131000" />
       <workItem from="1673898383653" duration="25000" />
-      <workItem from="1673898562433" duration="29000" />
+      <workItem from="1673898562433" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673434919250</created>
@@ -128,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673434919250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1673898629856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673898629857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
